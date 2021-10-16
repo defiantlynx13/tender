@@ -1,0 +1,71 @@
+.main-menu .navigation li > a > i, .main-menu .dropdown-menu i, .main-menu .dropdown-user > a > i, .main-menu .navigation > li > a > i {
+  float : right;
+}
+
+.dropdown-user.nav-item i {
+  float : right;
+}
+
+.menu-expanded .form-group i {
+  float : inherit;
+}
+
+.form-control-position i {
+  top : 25%;
+  position : absolute;
+  right : 25%;
+}
+
+.ui-widget-icon-block {
+  right : 50%;
+}
+
+.ui-dialog .ui-dialog-titlebar-close {
+  right : 3rem;
+}
+
+.btn i[class^='icon-'], .btn i[class*=' icon-'] {
+  line-height : 1.25rem;
+}
+
+code[class*='language-'], pre[class*='language-'] {
+  direction : ltr;
+}
+
+@media print {
+  code[class*='language-'], pre[class*='language-'] {
+    text-shadow : none;
+  }
+}
+
+.tnd_round{
+  border-radius: 1.5rem !important;
+}
+
+
+.tooltip {
+  font-family: "IRANSansWeb"!important;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: left;
+  text-align: start;
+  text-decoration: none;
+  text-shadow: none;
+  text-transform: none;
+  letter-spacing: normal;
+  word-break: normal;
+  word-spacing: normal;
+  word-wrap: normal;
+  white-space: normal;
+  /* ... */
+}
+.tooltip-inner {
+  max-width: 200px;
+  padding: 3px 8px;
+  color: #fff;
+  text-align: center;
+  background-color: #000;
+  border-radius: 4px;
+}

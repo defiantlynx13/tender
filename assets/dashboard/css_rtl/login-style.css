@@ -1,0 +1,22 @@
+
+
+@font-face {
+    font-family:'IRANSansWeb';
+    src:url('../fonts/irsans/IRANSansWeb.eot');
+    src:url('../fonts/irsans/IRANSansWeb.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/irsans/IRANSansWeb.woff') format('woff'),
+    url('../fonts/irsans/IRANSansWeb.ttf') format('truetype');
+    font-style:normal;
+}
+body{
+    font-family:'IRANSansWeb' !important;
+    padding:0;
+    margin:0;
+}
+
+.bg-login-image {
+    background-image: url(../images/backgrounds/bg-new222.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
